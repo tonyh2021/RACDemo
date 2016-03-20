@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (0.6.4)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YYKit (0.9.11):
+    - YYKit/no-arc (= 0.9.11)
+  - YYKit/no-arc (0.9.11)
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveCocoa (= 2.5)
+  - YYKit
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYKit: 76c3f2cee1a72d3c5b1d7fd8d170ee507fe5df68
+
+COCOAPODS: 0.39.0
