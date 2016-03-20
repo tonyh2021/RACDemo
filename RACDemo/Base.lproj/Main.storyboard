@@ -83,10 +83,21 @@
                                     <segue destination="g0Q-Aw-U0H" kind="show" id="0hN-oj-iMD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTQ-rq-3BM">
+                                <rect key="frame" x="200" y="474" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uO5-wy-Kno"/>
+                                </constraints>
+                                <state key="normal" title="More Examples"/>
+                                <connections>
+                                    <action selector="buttonDidClick:" destination="3YP-T0-764" eventType="touchUpInside" id="qbM-fr-v0g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qKz-S5-mPf" firstAttribute="top" secondItem="U1c-J5-AyV" secondAttribute="bottom" constant="30" id="2S9-Cx-Nyq"/>
+                            <constraint firstItem="HTQ-rq-3BM" firstAttribute="leading" secondItem="2Ep-HM-c1X" secondAttribute="leading" id="5eW-Ku-jeT"/>
                             <constraint firstItem="U1c-J5-AyV" firstAttribute="trailing" secondItem="xUx-ws-C6W" secondAttribute="trailing" id="6yo-LD-8fl"/>
                             <constraint firstItem="U1c-J5-AyV" firstAttribute="leading" secondItem="xUx-ws-C6W" secondAttribute="leading" id="9QS-c0-tV1"/>
                             <constraint firstItem="AyO-6P-0e7" firstAttribute="trailing" secondItem="xUx-ws-C6W" secondAttribute="trailing" id="AK3-Mh-hfS"/>
@@ -96,6 +107,8 @@
                             <constraint firstItem="zx7-iu-uzl" firstAttribute="centerX" secondItem="fLh-FZ-xoT" secondAttribute="centerX" id="HUl-aZ-4wn"/>
                             <constraint firstItem="AyO-6P-0e7" firstAttribute="leading" secondItem="xUx-ws-C6W" secondAttribute="leading" id="NZp-1r-eqn"/>
                             <constraint firstItem="qKz-S5-mPf" firstAttribute="leading" secondItem="xUx-ws-C6W" secondAttribute="leading" id="PeS-kK-MK7"/>
+                            <constraint firstItem="HTQ-rq-3BM" firstAttribute="top" secondItem="2Ep-HM-c1X" secondAttribute="bottom" constant="30" id="Qud-27-hWl"/>
+                            <constraint firstItem="HTQ-rq-3BM" firstAttribute="trailing" secondItem="2Ep-HM-c1X" secondAttribute="trailing" id="SG9-af-dso"/>
                             <constraint firstItem="AyO-6P-0e7" firstAttribute="centerX" secondItem="fLh-FZ-xoT" secondAttribute="centerX" id="Ubv-8v-7EM"/>
                             <constraint firstItem="2Ep-HM-c1X" firstAttribute="top" secondItem="zx7-iu-uzl" secondAttribute="bottom" constant="30" id="Vhl-Ri-dGV"/>
                             <constraint firstItem="xUx-ws-C6W" firstAttribute="centerX" secondItem="fLh-FZ-xoT" secondAttribute="centerX" id="XZy-YT-awN"/>

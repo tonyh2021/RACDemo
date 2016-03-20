@@ -16,6 +16,12 @@
 		170638BA1C9D9CF4006AEA18 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 170638B91C9D9CF4006AEA18 /* FlagItem.m */; };
 		170638BF1C9DA4D3006AEA18 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170638BE1C9DA4D3006AEA18 /* CommandViewController.m */; };
 		170638C21C9DA51A006AEA18 /* MulticastConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170638C11C9DA51A006AEA18 /* MulticastConnectionViewController.m */; };
+		171C68C01C9EE4DD009AD0A0 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C68BE1C9EE4DD009AD0A0 /* DelegateViewController.m */; };
+		171C68C41C9EE526009AD0A0 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C68C31C9EE526009AD0A0 /* ExampleViewController.m */; };
+		171C68C61C9EE544009AD0A0 /* Example.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171C68C51C9EE544009AD0A0 /* Example.storyboard */; };
+		171C68CD1C9EEF3D009AD0A0 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C68CC1C9EEF3D009AD0A0 /* CustomView.m */; };
+		171C68D01C9EEF52009AD0A0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C68CF1C9EEF52009AD0A0 /* KVOViewController.m */; };
+		171C68D31C9EF113009AD0A0 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C68D21C9EF113009AD0A0 /* Cat.m */; };
 		174235421C9CE3BB007A0B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174235411C9CE3BB007A0B6C /* main.m */; };
 		174235451C9CE3BB007A0B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174235441C9CE3BB007A0B6C /* AppDelegate.m */; };
 		174235481C9CE3BB007A0B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174235471C9CE3BB007A0B6C /* ViewController.m */; };
@@ -63,6 +69,17 @@
 		170638BE1C9DA4D3006AEA18 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
 		170638C01C9DA51A006AEA18 /* MulticastConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastConnectionViewController.h; sourceTree = "<group>"; };
 		170638C11C9DA51A006AEA18 /* MulticastConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastConnectionViewController.m; sourceTree = "<group>"; };
+		171C68BD1C9EE4DD009AD0A0 /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		171C68BE1C9EE4DD009AD0A0 /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		171C68C21C9EE526009AD0A0 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		171C68C31C9EE526009AD0A0 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		171C68C51C9EE544009AD0A0 /* Example.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Example.storyboard; sourceTree = "<group>"; };
+		171C68CB1C9EEF3D009AD0A0 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		171C68CC1C9EEF3D009AD0A0 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		171C68CE1C9EEF52009AD0A0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		171C68CF1C9EEF52009AD0A0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		171C68D11C9EF113009AD0A0 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		171C68D21C9EF113009AD0A0 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		1742353D1C9CE3BB007A0B6C /* RACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174235411C9CE3BB007A0B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		174235431C9CE3BB007A0B6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,6 +188,40 @@
 			path = MulticastConnection;
 			sourceTree = "<group>";
 		};
+		171C68B81C9EE39C009AD0A0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				171C68C21C9EE526009AD0A0 /* ExampleViewController.h */,
+				171C68C31C9EE526009AD0A0 /* ExampleViewController.m */,
+				171C68C51C9EE544009AD0A0 /* Example.storyboard */,
+				171C68CB1C9EEF3D009AD0A0 /* CustomView.h */,
+				171C68CC1C9EEF3D009AD0A0 /* CustomView.m */,
+				171C68CA1C9EEF28009AD0A0 /* KVO */,
+				171C68B91C9EE3B5009AD0A0 /* Delegate */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		171C68B91C9EE3B5009AD0A0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				171C68BD1C9EE4DD009AD0A0 /* DelegateViewController.h */,
+				171C68BE1C9EE4DD009AD0A0 /* DelegateViewController.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		171C68CA1C9EEF28009AD0A0 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				171C68CE1C9EEF52009AD0A0 /* KVOViewController.h */,
+				171C68CF1C9EEF52009AD0A0 /* KVOViewController.m */,
+				171C68D11C9EF113009AD0A0 /* Cat.h */,
+				171C68D21C9EF113009AD0A0 /* Cat.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 		174235341C9CE3BB007A0B6C = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +247,7 @@
 		1742353F1C9CE3BB007A0B6C /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				171C68B81C9EE39C009AD0A0 /* Example */,
 				170638BB1C9DA4C1006AEA18 /* Command */,
 				170638BC1C9DA4C1006AEA18 /* MulticastConnection */,
 				170638AC1C9D96FA006AEA18 /* TupleAndSequence */,
@@ -370,6 +422,7 @@
 				174235501C9CE3BB007A0B6C /* LaunchScreen.storyboard in Resources */,
 				170638B71C9D9CBC006AEA18 /* flags.plist in Resources */,
 				1742354D1C9CE3BB007A0B6C /* Assets.xcassets in Resources */,
+				171C68C61C9EE544009AD0A0 /* Example.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +499,17 @@
 				170638AB1C9D967F006AEA18 /* SubjectViewController.m in Sources */,
 				174235481C9CE3BB007A0B6C /* ViewController.m in Sources */,
 				170638C21C9DA51A006AEA18 /* MulticastConnectionViewController.m in Sources */,
+				171C68C01C9EE4DD009AD0A0 /* DelegateViewController.m in Sources */,
+				171C68CD1C9EEF3D009AD0A0 /* CustomView.m in Sources */,
+				171C68D31C9EF113009AD0A0 /* Cat.m in Sources */,
+				171C68C41C9EE526009AD0A0 /* ExampleViewController.m in Sources */,
 				174235451C9CE3BB007A0B6C /* AppDelegate.m in Sources */,
 				174235421C9CE3BB007A0B6C /* main.m in Sources */,
 				170638A91C9D967F006AEA18 /* SignalViewController.m in Sources */,
 				170638B51C9D98D0006AEA18 /* TupleAndSequenceViewController.m in Sources */,
 				170638BF1C9DA4D3006AEA18 /* CommandViewController.m in Sources */,
 				170638A81C9D967F006AEA18 /* ReplaySubjectViewController.m in Sources */,
+				171C68D01C9EEF52009AD0A0 /* KVOViewController.m in Sources */,
 				170638BA1C9D9CF4006AEA18 /* FlagItem.m in Sources */,
 				170638AA1C9D967F006AEA18 /* SubjectSecondViewController.m in Sources */,
 			);

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SignalViewController.h"
+#import "ExampleViewController.h"
 
 @interface ViewController ()
 
@@ -26,10 +27,10 @@
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
-        case 1: {
-            break;
-        }
-        case 2: {
+        case 6: {
+            UIStoryboard *exampleStoryBoard = [UIStoryboard storyboardWithName:@"Example" bundle:nil];
+            ExampleViewController *exampleViewController = [exampleStoryBoard instantiateViewControllerWithIdentifier:@"ExampleViewController"];  //ExampleViewController为viewcontroller的StoryboardId
+            [self.navigationController pushViewController:exampleViewController animated:YES];
             break;
         }
         default:
