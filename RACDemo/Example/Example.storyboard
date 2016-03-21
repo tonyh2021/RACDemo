@@ -80,22 +80,13 @@
                                     <segue destination="ygU-Ow-yqq" kind="show" id="f3r-rD-eIq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oyu-OK-MWb">
-                                <rect key="frame" x="277" y="443" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="h2n-nB-iSm"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="IrV-4e-Iif" firstAttribute="trailing" secondItem="4c3-F2-73b" secondAttribute="trailing" id="48O-Zc-Wtc"/>
                             <constraint firstItem="Inw-1a-q7J" firstAttribute="trailing" secondItem="b1R-mH-LMO" secondAttribute="trailing" id="4rW-Ef-QRm"/>
-                            <constraint firstItem="Oyu-OK-MWb" firstAttribute="trailing" secondItem="4c3-F2-73b" secondAttribute="trailing" id="6eh-aA-sdn"/>
                             <constraint firstItem="IWe-3a-Czz" firstAttribute="top" secondItem="4c3-F2-73b" secondAttribute="bottom" constant="30" id="6gh-0p-PaM"/>
                             <constraint firstItem="Kul-CW-4DB" firstAttribute="trailing" secondItem="Inw-1a-q7J" secondAttribute="trailing" id="DFs-7h-Nur"/>
-                            <constraint firstItem="Oyu-OK-MWb" firstAttribute="leading" secondItem="4c3-F2-73b" secondAttribute="leading" id="GyK-8K-F5J"/>
                             <constraint firstItem="b1R-mH-LMO" firstAttribute="top" secondItem="qlt-K9-kNz" secondAttribute="bottom" constant="60" id="ISa-ij-IcR"/>
                             <constraint firstItem="IrV-4e-Iif" firstAttribute="top" secondItem="IWe-3a-Czz" secondAttribute="bottom" constant="30" id="JSC-Bf-IXO"/>
                             <constraint firstItem="4c3-F2-73b" firstAttribute="top" secondItem="Kul-CW-4DB" secondAttribute="bottom" constant="30" id="KRg-E2-v7C"/>

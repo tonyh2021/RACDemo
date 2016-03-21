@@ -35,6 +35,16 @@
 		A96D42AA1C9F954B00DF2123 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42A91C9F954B00DF2123 /* NotificationViewController.m */; };
 		A96D42AF1C9F9BA800DF2123 /* LiftSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42AE1C9F9BA800DF2123 /* LiftSelectorViewController.m */; };
 		A96D42B21C9F9DBF00DF2123 /* MacroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */; };
+		A96D42B61C9FA74000DF2123 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42B51C9FA74000DF2123 /* ProjectsViewController.m */; };
+		A96D42B81C9FA75900DF2123 /* Projects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96D42B71C9FA75900DF2123 /* Projects.storyboard */; };
+		A96D42BB1C9FA89200DF2123 /* BindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42BA1C9FA89200DF2123 /* BindViewController.m */; };
+		A96D42BE1C9FB1EB00DF2123 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42BD1C9FB1EB00DF2123 /* MapViewController.m */; };
+		A96D42C11C9FB90100DF2123 /* ConcatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42C01C9FB90100DF2123 /* ConcatViewController.m */; };
+		A96D42C71C9FBAB500DF2123 /* MergeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42C61C9FBAB500DF2123 /* MergeViewController.m */; };
+		A96D42CA1C9FC23900DF2123 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42C91C9FC23900DF2123 /* FilterViewController.m */; };
+		A96D42CD1C9FC7B700DF2123 /* DoNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42CC1C9FC7B700DF2123 /* DoNextViewController.m */; };
+		A96D42D01C9FCA2300DF2123 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42CF1C9FCA2300DF2123 /* TimeViewController.m */; };
+		A96D42D31C9FCC8C00DF2123 /* RetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42D21C9FCC8C00DF2123 /* RetryViewController.m */; };
 		CBADEC68591ABE1374E51E3A /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EE10D6703FC10100B2C1C /* Pods_RACDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +122,25 @@
 		A96D42AE1C9F9BA800DF2123 /* LiftSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiftSelectorViewController.m; sourceTree = "<group>"; };
 		A96D42B01C9F9DBF00DF2123 /* MacroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroViewController.h; sourceTree = "<group>"; };
 		A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroViewController.m; sourceTree = "<group>"; };
+		A96D42B41C9FA74000DF2123 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		A96D42B51C9FA74000DF2123 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		A96D42B71C9FA75900DF2123 /* Projects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Projects.storyboard; sourceTree = "<group>"; };
+		A96D42B91C9FA89200DF2123 /* BindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindViewController.h; sourceTree = "<group>"; };
+		A96D42BA1C9FA89200DF2123 /* BindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindViewController.m; sourceTree = "<group>"; };
+		A96D42BC1C9FB1EB00DF2123 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A96D42BD1C9FB1EB00DF2123 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A96D42BF1C9FB90100DF2123 /* ConcatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcatViewController.h; sourceTree = "<group>"; };
+		A96D42C01C9FB90100DF2123 /* ConcatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatViewController.m; sourceTree = "<group>"; };
+		A96D42C51C9FBAB500DF2123 /* MergeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeViewController.h; sourceTree = "<group>"; };
+		A96D42C61C9FBAB500DF2123 /* MergeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeViewController.m; sourceTree = "<group>"; };
+		A96D42C81C9FC23900DF2123 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		A96D42C91C9FC23900DF2123 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		A96D42CB1C9FC7B700DF2123 /* DoNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoNextViewController.h; sourceTree = "<group>"; };
+		A96D42CC1C9FC7B700DF2123 /* DoNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoNextViewController.m; sourceTree = "<group>"; };
+		A96D42CE1C9FCA2300DF2123 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		A96D42CF1C9FCA2300DF2123 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		A96D42D11C9FCC8C00DF2123 /* RetryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetryViewController.h; sourceTree = "<group>"; };
+		A96D42D21C9FCC8C00DF2123 /* RetryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetryViewController.m; sourceTree = "<group>"; };
 		D865CB4C076B934204B128BF /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -263,6 +292,7 @@
 		1742353F1C9CE3BB007A0B6C /* RACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A96D42B31C9FA71B00DF2123 /* Projects */,
 				171C68B81C9EE39C009AD0A0 /* Example */,
 				170638BB1C9DA4C1006AEA18 /* Command */,
 				170638BC1C9DA4C1006AEA18 /* MulticastConnection */,
@@ -362,6 +392,32 @@
 				A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */,
 			);
 			path = RACMacro;
+			sourceTree = "<group>";
+		};
+		A96D42B31C9FA71B00DF2123 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				A96D42B41C9FA74000DF2123 /* ProjectsViewController.h */,
+				A96D42B51C9FA74000DF2123 /* ProjectsViewController.m */,
+				A96D42B71C9FA75900DF2123 /* Projects.storyboard */,
+				A96D42B91C9FA89200DF2123 /* BindViewController.h */,
+				A96D42BA1C9FA89200DF2123 /* BindViewController.m */,
+				A96D42BC1C9FB1EB00DF2123 /* MapViewController.h */,
+				A96D42BD1C9FB1EB00DF2123 /* MapViewController.m */,
+				A96D42BF1C9FB90100DF2123 /* ConcatViewController.h */,
+				A96D42C01C9FB90100DF2123 /* ConcatViewController.m */,
+				A96D42C51C9FBAB500DF2123 /* MergeViewController.h */,
+				A96D42C61C9FBAB500DF2123 /* MergeViewController.m */,
+				A96D42C81C9FC23900DF2123 /* FilterViewController.h */,
+				A96D42C91C9FC23900DF2123 /* FilterViewController.m */,
+				A96D42CB1C9FC7B700DF2123 /* DoNextViewController.h */,
+				A96D42CC1C9FC7B700DF2123 /* DoNextViewController.m */,
+				A96D42CE1C9FCA2300DF2123 /* TimeViewController.h */,
+				A96D42CF1C9FCA2300DF2123 /* TimeViewController.m */,
+				A96D42D11C9FCC8C00DF2123 /* RetryViewController.h */,
+				A96D42D21C9FCC8C00DF2123 /* RetryViewController.m */,
+			);
+			path = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +530,7 @@
 				174235501C9CE3BB007A0B6C /* LaunchScreen.storyboard in Resources */,
 				170638B71C9D9CBC006AEA18 /* flags.plist in Resources */,
 				1742354D1C9CE3BB007A0B6C /* Assets.xcassets in Resources */,
+				A96D42B81C9FA75900DF2123 /* Projects.storyboard in Resources */,
 				171C68C61C9EE544009AD0A0 /* Example.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,19 +605,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				175D57931C9D5797001585BA /* UIColor+RandomColors.m in Sources */,
+				A96D42D31C9FCC8C00DF2123 /* RetryViewController.m in Sources */,
 				170638AB1C9D967F006AEA18 /* SubjectViewController.m in Sources */,
+				A96D42B61C9FA74000DF2123 /* ProjectsViewController.m in Sources */,
+				A96D42BE1C9FB1EB00DF2123 /* MapViewController.m in Sources */,
 				A96D42AF1C9F9BA800DF2123 /* LiftSelectorViewController.m in Sources */,
+				A96D42C11C9FB90100DF2123 /* ConcatViewController.m in Sources */,
 				174235481C9CE3BB007A0B6C /* ViewController.m in Sources */,
 				A96D42AA1C9F954B00DF2123 /* NotificationViewController.m in Sources */,
+				A96D42D01C9FCA2300DF2123 /* TimeViewController.m in Sources */,
 				170638C21C9DA51A006AEA18 /* MulticastConnectionViewController.m in Sources */,
+				A96D42C71C9FBAB500DF2123 /* MergeViewController.m in Sources */,
+				A96D42CD1C9FC7B700DF2123 /* DoNextViewController.m in Sources */,
 				171C68C01C9EE4DD009AD0A0 /* DelegateViewController.m in Sources */,
 				171C68CD1C9EEF3D009AD0A0 /* CustomView.m in Sources */,
 				171C68D31C9EF113009AD0A0 /* Cat.m in Sources */,
 				A96D42A61C9F938000DF2123 /* EventsViewController.m in Sources */,
 				171C68C41C9EE526009AD0A0 /* ExampleViewController.m in Sources */,
 				174235451C9CE3BB007A0B6C /* AppDelegate.m in Sources */,
+				A96D42BB1C9FA89200DF2123 /* BindViewController.m in Sources */,
 				174235421C9CE3BB007A0B6C /* main.m in Sources */,
 				170638A91C9D967F006AEA18 /* SignalViewController.m in Sources */,
+				A96D42CA1C9FC23900DF2123 /* FilterViewController.m in Sources */,
 				170638B51C9D98D0006AEA18 /* TupleAndSequenceViewController.m in Sources */,
 				170638BF1C9DA4D3006AEA18 /* CommandViewController.m in Sources */,
 				170638A81C9D967F006AEA18 /* ReplaySubjectViewController.m in Sources */,
