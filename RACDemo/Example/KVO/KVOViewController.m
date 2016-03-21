@@ -28,9 +28,15 @@
     
     Cat *cat = [Cat new];
     self.cat = cat;
+    
+    [[self.cat rac_valuesAndChangesForKeyPath:@"age" options:NSKeyValueObservingOptionNew observer:nil]  subscribeNext:^(id x) {
+        NSLog(@"%@", x);
+    }];
 }
 
-- (void)
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.cat.age += 1;
+}
 
 
 @end

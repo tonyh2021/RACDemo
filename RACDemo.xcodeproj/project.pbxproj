@@ -31,7 +31,11 @@
 		174235661C9CE3BC007A0B6C /* RACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174235651C9CE3BC007A0B6C /* RACDemoUITests.m */; };
 		175D57931C9D5797001585BA /* UIColor+RandomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D57921C9D5797001585BA /* UIColor+RandomColors.m */; };
 		175D579F1C9D6AA2001585BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175D579D1C9D6AA2001585BA /* Main.storyboard */; };
-		D32BE34AB5915C78124E6C11 /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198C8344F66ED706026072B2 /* Pods_RACDemo.framework */; };
+		A96D42A61C9F938000DF2123 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42A51C9F938000DF2123 /* EventsViewController.m */; };
+		A96D42AA1C9F954B00DF2123 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42A91C9F954B00DF2123 /* NotificationViewController.m */; };
+		A96D42AF1C9F9BA800DF2123 /* LiftSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42AE1C9F9BA800DF2123 /* LiftSelectorViewController.m */; };
+		A96D42B21C9F9DBF00DF2123 /* MacroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */; };
+		CBADEC68591ABE1374E51E3A /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037EE10D6703FC10100B2C1C /* Pods_RACDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037EE10D6703FC10100B2C1C /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1706389E1C9D967F006AEA18 /* ReplaySubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaySubjectViewController.h; sourceTree = "<group>"; };
 		1706389F1C9D967F006AEA18 /* ReplaySubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaySubjectViewController.m; sourceTree = "<group>"; };
 		170638A11C9D967F006AEA18 /* SignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalViewController.h; sourceTree = "<group>"; };
@@ -98,9 +103,16 @@
 		175D57911C9D5797001585BA /* UIColor+RandomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColors.h"; sourceTree = "<group>"; };
 		175D57921C9D5797001585BA /* UIColor+RandomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColors.m"; sourceTree = "<group>"; };
 		175D579E1C9D6AA2001585BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		198C8344F66ED706026072B2 /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A4E9F7EB37DDC23C87E866 /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3FD44FD1F64FF94E43493AE2 /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7ADF0306C2D602920078044B /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A96D42A41C9F938000DF2123 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		A96D42A51C9F938000DF2123 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		A96D42A81C9F954B00DF2123 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		A96D42A91C9F954B00DF2123 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		A96D42AD1C9F9BA800DF2123 /* LiftSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiftSelectorViewController.h; sourceTree = "<group>"; };
+		A96D42AE1C9F9BA800DF2123 /* LiftSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiftSelectorViewController.m; sourceTree = "<group>"; };
+		A96D42B01C9F9DBF00DF2123 /* MacroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroViewController.h; sourceTree = "<group>"; };
+		A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroViewController.m; sourceTree = "<group>"; };
+		D865CB4C076B934204B128BF /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32BE34AB5915C78124E6C11 /* Pods_RACDemo.framework in Frameworks */,
+				CBADEC68591ABE1374E51E3A /* Pods_RACDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +209,11 @@
 				171C68CB1C9EEF3D009AD0A0 /* CustomView.h */,
 				171C68CC1C9EEF3D009AD0A0 /* CustomView.m */,
 				171C68CA1C9EEF28009AD0A0 /* KVO */,
+				A96D42A31C9F936A00DF2123 /* Events */,
 				171C68B91C9EE3B5009AD0A0 /* Delegate */,
+				A96D42A71C9F953B00DF2123 /* Notification */,
+				A96D42AB1C9F9B9300DF2123 /* LiftSelector */,
+				A96D42AC1C9F9B9300DF2123 /* RACMacro */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -229,8 +245,8 @@
 				174235591C9CE3BB007A0B6C /* RACDemoTests */,
 				174235641C9CE3BC007A0B6C /* RACDemoUITests */,
 				1742353E1C9CE3BB007A0B6C /* Products */,
-				69FA498D4017965F660D411B /* Pods */,
-				A4343333E6CB643BD9DD580E /* Frameworks */,
+				39D06B3744A64966EEEEFD88 /* Pods */,
+				6FDE7DDDC23E73681E8D9398 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,21 +311,57 @@
 			path = RACDemoUITests;
 			sourceTree = "<group>";
 		};
-		69FA498D4017965F660D411B /* Pods */ = {
+		39D06B3744A64966EEEEFD88 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3FD44FD1F64FF94E43493AE2 /* Pods-RACDemo.debug.xcconfig */,
-				36A4E9F7EB37DDC23C87E866 /* Pods-RACDemo.release.xcconfig */,
+				D865CB4C076B934204B128BF /* Pods-RACDemo.debug.xcconfig */,
+				7ADF0306C2D602920078044B /* Pods-RACDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A4343333E6CB643BD9DD580E /* Frameworks */ = {
+		6FDE7DDDC23E73681E8D9398 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				198C8344F66ED706026072B2 /* Pods_RACDemo.framework */,
+				037EE10D6703FC10100B2C1C /* Pods_RACDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A96D42A31C9F936A00DF2123 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				A96D42A41C9F938000DF2123 /* EventsViewController.h */,
+				A96D42A51C9F938000DF2123 /* EventsViewController.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		A96D42A71C9F953B00DF2123 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				A96D42A81C9F954B00DF2123 /* NotificationViewController.h */,
+				A96D42A91C9F954B00DF2123 /* NotificationViewController.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		A96D42AB1C9F9B9300DF2123 /* LiftSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A96D42AD1C9F9BA800DF2123 /* LiftSelectorViewController.h */,
+				A96D42AE1C9F9BA800DF2123 /* LiftSelectorViewController.m */,
+			);
+			path = LiftSelector;
+			sourceTree = "<group>";
+		};
+		A96D42AC1C9F9B9300DF2123 /* RACMacro */ = {
+			isa = PBXGroup;
+			children = (
+				A96D42B01C9F9DBF00DF2123 /* MacroViewController.h */,
+				A96D42B11C9F9DBF00DF2123 /* MacroViewController.m */,
+			);
+			path = RACMacro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,12 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1742356A1C9CE3BC007A0B6C /* Build configuration list for PBXNativeTarget "RACDemo" */;
 			buildPhases = (
-				AE54CACDB4B64AF5A6BA1737 /* Check Pods Manifest.lock */,
+				600F08E2B7C9DE6542B6B004 /* Check Pods Manifest.lock */,
 				174235391C9CE3BB007A0B6C /* Sources */,
 				1742353A1C9CE3BB007A0B6C /* Frameworks */,
 				1742353B1C9CE3BB007A0B6C /* Resources */,
-				95652AC7CA73302BA6F59A14 /* Embed Pods Frameworks */,
-				6FBC5CEC6CDB8DD5946357EB /* Copy Pods Resources */,
+				8E51EF66B8F0AA5BC84E3AB7 /* Embed Pods Frameworks */,
+				D63CF35805D82FF050FB1366 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -443,37 +495,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FBC5CEC6CDB8DD5946357EB /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95652AC7CA73302BA6F59A14 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE54CACDB4B64AF5A6BA1737 /* Check Pods Manifest.lock */ = {
+		600F08E2B7C9DE6542B6B004 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,6 +510,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		8E51EF66B8F0AA5BC84E3AB7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63CF35805D82FF050FB1366 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -497,11 +549,14 @@
 			files = (
 				175D57931C9D5797001585BA /* UIColor+RandomColors.m in Sources */,
 				170638AB1C9D967F006AEA18 /* SubjectViewController.m in Sources */,
+				A96D42AF1C9F9BA800DF2123 /* LiftSelectorViewController.m in Sources */,
 				174235481C9CE3BB007A0B6C /* ViewController.m in Sources */,
+				A96D42AA1C9F954B00DF2123 /* NotificationViewController.m in Sources */,
 				170638C21C9DA51A006AEA18 /* MulticastConnectionViewController.m in Sources */,
 				171C68C01C9EE4DD009AD0A0 /* DelegateViewController.m in Sources */,
 				171C68CD1C9EEF3D009AD0A0 /* CustomView.m in Sources */,
 				171C68D31C9EF113009AD0A0 /* Cat.m in Sources */,
+				A96D42A61C9F938000DF2123 /* EventsViewController.m in Sources */,
 				171C68C41C9EE526009AD0A0 /* ExampleViewController.m in Sources */,
 				174235451C9CE3BB007A0B6C /* AppDelegate.m in Sources */,
 				174235421C9CE3BB007A0B6C /* main.m in Sources */,
@@ -510,6 +565,7 @@
 				170638BF1C9DA4D3006AEA18 /* CommandViewController.m in Sources */,
 				170638A81C9D967F006AEA18 /* ReplaySubjectViewController.m in Sources */,
 				171C68D01C9EEF52009AD0A0 /* KVOViewController.m in Sources */,
+				A96D42B21C9F9DBF00DF2123 /* MacroViewController.m in Sources */,
 				170638BA1C9D9CF4006AEA18 /* FlagItem.m in Sources */,
 				170638AA1C9D967F006AEA18 /* SubjectSecondViewController.m in Sources */,
 			);
@@ -648,7 +704,7 @@
 		};
 		1742356B1C9CE3BC007A0B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FD44FD1F64FF94E43493AE2 /* Pods-RACDemo.debug.xcconfig */;
+			baseConfigurationReference = D865CB4C076B934204B128BF /* Pods-RACDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDemo/Info.plist;
@@ -661,7 +717,7 @@
 		};
 		1742356C1C9CE3BC007A0B6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A4E9F7EB37DDC23C87E866 /* Pods-RACDemo.release.xcconfig */;
+			baseConfigurationReference = 7ADF0306C2D602920078044B /* Pods-RACDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDemo/Info.plist;
